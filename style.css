@@ -1,14 +1,35 @@
-body {
-}
+body{
+    background-image: url(zebrinhas.jpg);
+    background-size: cover;
+    background-attachment:scroll
+    }
 
-main#container {
-}
+main#container  {
+                    color: #456492;
+                    padding: 15px;
+                    border-style: solid;
+                    border-radius: 15px;
+                    border-width: 8px;
+                    display: flex;
+                }
+h1.titulo   {
+                color: #ffffffe0;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 45px;
+                display: flex;
 
-h1.titulo {
-}
+            }
 
 p.frase {
-}
+           color: #e7ce8e;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           font-size: 32px;
+        }
 
 p.autor {
-}
+            color: #110c05;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 30px;
+            text-align: end;
+            justify-content: end;
+        }
